@@ -1,4 +1,18 @@
 body {
-	background: black;
+	background: skyblue;
+	color: white;
+	}
+p {
+	font-size: 15px;
+	}
+a {
+	padding: 80px 80px;
 	color: white;
 }
+.navigation {
+	margin: 0 auto;
+	text-align: center;
+}
+a:visited {
+	color: white;
+	}
