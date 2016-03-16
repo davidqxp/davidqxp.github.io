@@ -1,0 +1,81 @@
+.container {
+	width: 720px;
+	padding: 54px;
+	background-color: white;
+	font-family: Lato;
+}
+
+body {
+	line-height: 1.5em;
+}
+
+h1, h2, h3 {
+	font-weight: 300;
+}
+
+h1 {
+	color: red;
+}
+
+h2 {
+	font-size: 30px;
+	margin: 15px 0px 15px 0px;
+}
+
+h3 {
+	color: #dddddd;
+}
+
+#title {
+	font-family: Lato, 300;
+	font-size: 50px;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+#second-title {
+	color: black;
+	margin-bottom: 0px;
+}
+
+a {
+	text-decoration: underline;
+	color: #dddddd;
+	padding-right: 10px;
+}
+
+header {
+	color: black;
+}
+
+.first {
+	color: #cccccc;
+	margin-bottom: 0px;
+}
+
+#last {
+	color: red;
+}
+
+.continues a {
+	text-align: right;
+	color: red;
+	font-weight: 700;
+	padding: 0px;
+}
+
+#monkey {
+	color: #dddddd;
+}
+
+img {
+	max-width: 100%;
+}
+
+hr {
+	display: inline-block;
+}
+
+#tiger {
+	text-align: right;
+}
