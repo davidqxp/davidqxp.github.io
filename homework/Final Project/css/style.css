@@ -1,0 +1,27 @@
+/* background image not finalized...will be self designed
+*/
+
+
+body {
+	color: white;
+	background-color: black;
+}
+
+#logo {
+	font-family: 'Poiret One';
+	font-size: 200px;
+	text-align: center;
+	margin-top: 15%;
+	margin-bottom: 0%;
+}
+
+form {
+	text-align: center;
+}
+
+textarea {
+	font-family: 'Indie Flower';
+	height: 10%;
+	width: 25%;
+	font-size: 16px;
+}

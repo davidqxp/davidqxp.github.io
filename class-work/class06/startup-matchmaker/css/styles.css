@@ -1,0 +1,139 @@
+/* FONT FAMILY HELPERS :)
+// font-family: 'Oswald', sans-serif;
+// font-family: 'Merriweather', serif;
+// font-family: 'Source Sans Pro', sans-serif; */
+
+.alignright {
+	float: right;
+}
+
+.floatleft {
+	float: left;
+}
+
+.clearfix {
+	overflow: auto;
+}
+
+body {
+	background-image: "img/coworking.jpg";
+	font-family: "Source Sans Pro";
+}
+
+header {
+	overflow: auto;
+	padding: 0px 15px;
+	background-color: black;
+	border-bottom: 5px solid yellow;
+}
+
+#logo {
+	font-family: "Merriweather", serif;
+	float: left;
+	color: yellow;
+	font-size: 30px;
+	margin-top: 15px
+}
+
+#Nav, button {
+	font-family: "Oswald";
+}
+
+nav {
+	float: right;
+	text-decoration: none;
+	color: white;
+	margin-top: 15px;
+	font-family: "Oswald";
+}
+
+ul li {
+	display: inline-block;
+	margin-left: 20px;
+}
+
+#motto {
+	font-family: "Merriweather", serif;
+	font-style: italic;
+	text-align: center;
+	background: #c6c6c6;
+	margin: auto;
+	padding: 10px;
+	font-size: 20px;
+}
+
+#taste {
+	color: gray;
+	text-decoration: line-through;
+}
+
+#are {
+	margin-bottom: 5px;
+	border-bottom: 3px solid yellow;
+}
+
+#main {
+	overflow: auto;
+	background-image: url("../img/coworking.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-position: center;
+	height: 60%;
+	width: 100%;
+}
+
+#box {
+	background-color: rgba(255, 255, 255, 0.6);
+	margin-top: 2%;
+	margin-left: 60%;
+	margin-right: 2%;
+	margin-bottom: 2%;
+}
+
+#boxwithin {
+	padding: 15% 5%;
+}
+
+button {
+	background-color: yellow;
+	width: 100%;
+	height: 15%;
+	font-size: 20px;
+	margin: auto;
+}
+
+.otherbuttons {
+	background-color: lightgray;
+	text-align: center;
+	width: 90%;
+	height: 50px;
+}
+
+
+h1 {
+	font-weight: bold;
+	margin: auto;	
+}
+
+article {
+	border-right: 1px solid gray;
+	padding: 0 5px 0 5px;
+	width: 31%;
+	display: inline-block;
+}
+
+section {
+    width: 100%;
+    height: 175px;
+    padding: 20px;
+}
+
+.sectionp {
+	padding: 0 20px 0 0;
+}
+
+#footer {
+	color: white;
+	background-color: black;
+	padding: 15px;
+}
