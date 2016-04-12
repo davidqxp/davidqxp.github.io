@@ -1,0 +1,26 @@
+#left {
+	font-family: 'Raleway';
+	font-size: 50px;
+	position: absolute;
+	top: 30%;
+	right: 60%;
+}
+
+#right {
+	font-family: 'Raleway';
+	font-size: 50px;
+	position: absolute;
+	top: 30%;
+	left: 60%;
+}
+
+p {
+	font-family: 'Raleway', sans-serif;
+	font-size: 30px;
+	margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%) }
+}

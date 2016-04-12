@@ -12,18 +12,37 @@ body {
 	font-family: 'Poiret One';
 	font-size: 200px;
 	font-style: bold;
-	text-align: center;
-	margin-top: 15%;
-	margin-bottom: 0%;
+	margin: 0;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);	
 }
+
 
 form {
-	text-align: center;
+    top: 75%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
 }
 
-textarea {
+#sentence {
 	font-family: 'Indie Flower';
-	height: 10%;
-	width: 25%;
-	font-size: 16px;
 }
+
+#popmenu {
+	background-color: rgba(255, 255, 255, 0.6);
+	padding: 10px;
+	text-align: center;
+	top: 50%;
+	float: left;
+	margin: 0 auto;
+}
+
+[placeholder]:focus::-webkit-input-placeholder {
+  transition: opacity 0.5s 0.5s ease; 
+  opacity: 0;
+  }
