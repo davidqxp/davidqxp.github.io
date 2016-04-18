@@ -10,7 +10,6 @@ body {
 #logo {
 	font-family: 'Poiret One';
 	font-size: 200px;
-	font-style: bold;
 	margin: 0;
     position: absolute;
     top: 40%;
@@ -166,7 +165,6 @@ body.has-active-menu {
   }
 }
 
-.c-menu--slide-left.is-active,
-{
+.c-menu--slide-left.is-active {
   transform: translateX(0);
 }
