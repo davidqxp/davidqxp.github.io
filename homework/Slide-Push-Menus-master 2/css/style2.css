@@ -1,0 +1,42 @@
+[placeholder]:focus::-webkit-input-placeholder {
+  transition: opacity 0.5s 0.2s ease; 
+  opacity: 0;
+}
+
+#logo {
+ 	font-family: 'Montserrat Alternates', sans-serif;
+ 	font-size: 150px;
+ 	margin: 0;
+ 	top: 40%;
+ 	left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);	 
+ 	position: absolute;
+}
+
+#form {
+ 	margin: 0;
+	top: 65%;
+	left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);	 
+	position: absolute;
+}
+
+#submits {
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 15pt;
+	margin: 0;
+	top: 120%;
+	left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);	 
+	position: absolute;	
+}
+
+#inputs {
+ 	text-align: center;
+ 	font-family: 'Ubuntu', sans-serif;
+ 	font-size: 14pt;
+ 	width: 300px;
+}
