@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta content="Play with syllables." name="description">
+		<title>Alphabet</title>
+		<link rel="stylesheet" href="css/styles.css">
+		<link rel="stylesheet" href="css/font-awesome.css">
+		<link rel="stylesheet" href="css/font-awesome.min.css">
+		<link href='https://fonts.googleapis.com/css?family=Josefin+Sans' rel='stylesheet' type='text/css'>
+	</head>
+	<body>
+	<header id="menu">
+		<button id="leftmenu" class="leftmenu"><i class="fa fa-music" aria-hidden="true"></i></button>
+		<button id="rightmenu" class="rightmenu"><i class="fa fa-info" aria-hidden="true"></i></button>
+	</header>
+	<div class="row">
+	<span class="ctr-p" id="body">
+		<a><center><img src="img/logo.png" alt="Alphabets" align="middle"></center></a>
+		</span>
+	</div>
+	<div id="textinput" class="row">
+		<form id="submitting">
+		<input id="sentence" placeholder="Write your sentence here!">
+		<br> <br>
+		<input type="submit" value="Submit!!" id="submit" onclick="play()">
+	</div>
+	<div class="row">
+		<div class="empty">
+			<div class="sounds">
+			</div>
+		</div>
+	</div>
+	<script>
+	document.getElementById('sentence').style.height="30px";
+	document.getElementById('sentence').style.width="500px";
+	document.getElementById('sentence').style.fontSize="13pt";
+	</script>
+	<script src="https://code.jquery.com/jquery-2.2.2.min.js"></script>
+	<script src="js/app.js"></script>
+	</body>
+</html>

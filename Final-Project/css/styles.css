@@ -1,0 +1,45 @@
+#leftmenu {
+	float: left;
+	clear: auto;
+	position: absolute;
+	margin: 0 auto;
+	font-family: 'Josefin Sans';
+  	font-style: normal;
+ 	font-weight: 400;
+}
+
+#rightmenu {
+	float: right;
+	clear: auto;
+	position: relative;
+	margin: 0 auto;
+	font-family: 'Josefin Sans';
+  	font-style: normal;
+  	font-weight: 400;
+}
+
+img {
+	margin-top: 15%;
+}
+
+#textinput {
+	text-align: center;
+}
+
+#sentence {
+	font-family: 'Josefin Sans';
+  	font-style: normal;
+  	font-weight: 400;
+  	text-align: center;
+}
+
+[placeholder]:focus::-webkit-input-placeholder {
+  transition: opacity 0.5s 0.2s ease; 
+  opacity: 0;
+}
+
+button {
+	border: 5px solid;
+	border-radius: 25px;
+	background-color: white;
+	}
